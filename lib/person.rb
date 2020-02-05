@@ -6,4 +6,13 @@ class Person
   def name
     @name
   end
+
+  def jobs=(persons_job)
+    @job = persons_job
+  end
+  
+  def job
+    @job
+  end
+  
 end
